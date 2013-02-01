@@ -1,4 +1,4 @@
-var io = require('socket.io').listen(8000);
+var io = require('socket.io').listen(80);
 var clientList = [];
 
 io.sockets.on('connection', function (socket) {
